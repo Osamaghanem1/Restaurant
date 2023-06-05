@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://i.ibb.co/Gk5B4f7/Chef-restaurant-logo-illustrations-template-on-transparent-background-PNG.png" alt="Restaurant Logo">
+ 
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Reservation</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Welcome to our Restaurant</h1>
+    <form id="food-form">
+      <div>
+        <label for="food-name">Food Name:</label>
+        <input type="text" id="food-name" required>
+      </div>
+      <div>
+        <label for="food-type">Food Type:</label>
+        <select id="food-type" required>
+          <option value="Fruit and vegetables">Fruit and vegetables</option>
+          <option value="Starchy food">Starchy food</option>
+          <option value="Dairy">Dairy</option>
+          <option value="Protein">Protein</option>
+          <option value="Fat">Fat</option>
+        </select>
+      </div>
+      <div>
+        <label for="food-price">Price:</label>
+        <input type="number" id="food-price" required>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <table id="food-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <div class="social-media">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="facebook"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3938/3938028.png" alt="Twitter"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3621/3621435.png" alt="Instagram"></a>
+    </div>
+    <p>&copy; 2023 Restaurant. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
